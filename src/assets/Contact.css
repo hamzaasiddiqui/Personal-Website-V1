@@ -1,0 +1,20 @@
+.contact-heading {
+    color: #C9D6DF;
+    font-family: Syne;
+    font-size: xx-large;
+}
+
+.contact-body {
+    color: white;
+    font-family: Syne;
+    font-size: 18px;
+}
+
+.contact-footer {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 10px;
+}
