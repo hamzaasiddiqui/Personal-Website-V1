@@ -8,7 +8,7 @@ export default function About() {
   return (
     <div className="about-body">
       <div
-        className="row p-0 m-0 pb-3"
+        className="row p-0 m-5 pb-3"
         style={{ color: "white", fontFamily: "Roboto" }}
       >
         <div className="col p-5 m-0 about-text">

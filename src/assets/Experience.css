@@ -1,3 +1,8 @@
+.experience-body {
+    height: calc(100vh - 100px);
+    width: 100%;
+}
+
 .experience-table {
     margin-right: 100px;
     width: 1250px;

@@ -12,6 +12,7 @@ import {
 
 export default function Contact() {
   return (
+    <div className="contact-wrapper">
     <motion.div
       className="contact-body"
       initial={{ opacity: 0 }}
@@ -19,7 +20,7 @@ export default function Contact() {
       transition={{ delay: 0.5 }}
     >
       <div className="contact-heading">Contact Me</div>
-      <div className="contact-body mt-3 mb-3">
+      <div className="contact-body my-3 p-0">
         Feel free to reach out to me through my email, Linkedin, or my other
         links.
         <br />I also do freelance projects on the side and if you are interested
@@ -56,5 +57,6 @@ export default function Contact() {
       </div>
       <div className="contact-footer">Hamza A. Siddiqui | Copyright © 2023</div>
     </motion.div>
+    </div>
   );
 }

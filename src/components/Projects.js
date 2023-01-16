@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 
 import ProjectCard from "../common/ProjectCard";
 
+import "../assets/Projects.css";
+
 import mantulaImg from "../media/mantulaImg2.png";
 import cmsImg from "../media/cmsImg.png";
 import getRecipeImg from "../media/getRecipeImg.png";
@@ -11,7 +13,7 @@ import getWeatherImg from "../media/getWeatherImg.png";
 
 export default function Projects() {
   return (
-    <div className="px-5">
+    <div className="projects-body px-5">
       <motion.h1
         className="mt-5 mb-5"
         initial={{ opacity: 0 }}

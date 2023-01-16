@@ -5,7 +5,7 @@ import "../assets/Experience.css";
 
 export default function Experience() {
   return (
-    <div>
+    <div className="experience-body">
       <motion.h1
         className="mt-5 mb-2"
         initial={{ opacity: 0 }}
